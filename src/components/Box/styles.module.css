@@ -1,0 +1,12 @@
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+
+  width: 100%;
+  padding: 1.5rem;
+
+  background-color: #283142;
+  border-radius: .5rem;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.45);
+}

@@ -1,0 +1,13 @@
+.table-container {
+  margin-top: 1.25rem;
+
+  font-size: 1rem;
+  color: #fff;
+
+  border-spacing: .875rem;
+}
+
+.tctb-container {
+  font-size: .875rem;
+  text-align: center;
+}
