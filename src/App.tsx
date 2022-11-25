@@ -3,6 +3,7 @@ import "./App.css";
 import { DateInput } from "./components/DateInput";
 import { Table } from "./components/Table";
 import { useState } from "react";
+import Logo from "./assets/header-image.png"
 
 function App() {
   const [startDate, setStartDate] = useState<string>('')
@@ -11,7 +12,7 @@ function App() {
   return (
     <main className="container">
       <header className="header-container">
-        <img src="src/assets/header-image.png" />
+        <img src={Logo} />
         <h1 className="hc-title">LPII</h1>
         <h3 className="hc-name">Desenvolvido por @viniciusmsnlp@hotmail.com</h3>
       </header>
